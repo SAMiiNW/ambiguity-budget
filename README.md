@@ -15,7 +15,7 @@ Contract code assigns weights 0, 2, and 3. A designated reviewer may submit a ne
 
 ## Demonstrated rounds
 
-The controlled draft fixture leaves launch timing with multiple answers and final approval missing. The revision fixes a UTC launch time, a closed region set, an exclusive approval role, and rollback ownership. Live evidence records both finalizations and a rejected post-clear replay. The fixtures are operator-controlled review material, not third-party attestations.
+The controlled draft fixture leaves launch timing and the closed launch-region set with multiple answers, while final approval is missing. The revision fixes a UTC launch time, a closed region set, an exclusive approval role, and rollback ownership. Live evidence records both finalizations and a rejected post-clear replay. The fixtures are operator-controlled review material, not third-party attestations.
 
 ## Check locally
 

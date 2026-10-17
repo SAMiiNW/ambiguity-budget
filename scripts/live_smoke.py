@@ -25,7 +25,7 @@ stamp=str(int(time.time()));review_id='BUDGET-'+stamp;base='https://cdn.jsdelivr
 dimensions=['Exact production launch date and time','Closed set of allowed launch regions','Role with exclusive final production approval','Named rollback ownership role']
 open_tx,_=finalized(1,'open_review',[review_id,account(2).address,'Dispatch specification ambiguity gauge',dimensions,0,base+'draft-spec.md'])
 evaluate_tx,_=finalized(1,'evaluate',[review_id]);draft=client(1).read_contract(address=ADDRESS,function_name='get_review',args=[review_id])
-assert draft['state']=='NEEDS_REVISION' and draft['score']==5 and draft['statuses']==['MULTIPLE','RESOLVED','MISSING','RESOLVED'],draft
+assert draft['state']=='NEEDS_REVISION' and draft['score']==7 and draft['statuses']==['MULTIPLE','MULTIPLE','MISSING','RESOLVED'],draft
 revise_tx,_=finalized(2,'revise',[review_id,base+'revised-spec.md']);clear=client(1).read_contract(address=ADDRESS,function_name='get_review',args=[review_id])
 assert clear['state']=='CLEAR' and clear['score']==0 and clear['round']==2 and clear['statuses']==['RESOLVED']*4,clear
 before=clear;replay_tx,replay_leader=finalized(2,'revise',[review_id,base+'revised-spec.md'],expected='ERROR');after=client(1).read_contract(address=ADDRESS,function_name='get_review',args=[review_id]);assert before==after

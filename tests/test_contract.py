@@ -24,9 +24,9 @@ def test_budget_and_monotonic_revision_rules():
 def test_contract_binds_all_state_driving_fields():
     source = (ROOT / "contracts/contract.py").read_text(encoding="utf-8")
     for token in (
-        "one finding per decision point required",
-        "ordered exact findings required",
-        "citations do not support the ambiguity status",
+        "one status code and citation mask per decision point required",
+        "bounded integer codes and masks required",
+        "citation mask does not support the ambiguity status",
         "revision must strictly reduce ambiguity without regression",
         "source_digest",
         "prompt_comparative",

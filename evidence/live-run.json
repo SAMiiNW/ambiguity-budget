@@ -1,0 +1,92 @@
+{
+  "reviewId": "BUDGET-1792209899",
+  "transactions": {
+    "openReview": "0x9ac3c9769e4c1d72771b25bc4f119a53acacc1514886a0aef7b0ad9bdae25852",
+    "evaluateDraft": "0x045532e5b91560c216d742d08d899f381964f5ae61ee8692807815ddbd943214",
+    "reviseToClear": "0xa5326252be729e3492f144eb0d705472efe42d8743715a0f9551f0d399739bdc",
+    "postClearReplayRejected": "0x118a9c500851483ce06fbb86591fcca987a2714e6f9b5ff51fa27c78df5ae65e"
+  },
+  "explorer": {
+    "openReview": "https://explorer-studio.genlayer.com/transactions/0x9ac3c9769e4c1d72771b25bc4f119a53acacc1514886a0aef7b0ad9bdae25852",
+    "evaluateDraft": "https://explorer-studio.genlayer.com/transactions/0x045532e5b91560c216d742d08d899f381964f5ae61ee8692807815ddbd943214",
+    "reviseToClear": "https://explorer-studio.genlayer.com/transactions/0xa5326252be729e3492f144eb0d705472efe42d8743715a0f9551f0d399739bdc",
+    "postClearReplayRejected": "https://explorer-studio.genlayer.com/transactions/0x118a9c500851483ce06fbb86591fcca987a2714e6f9b5ff51fa27c78df5ae65e"
+  },
+  "negativeExecution": "ERROR",
+  "stateUnchangedAfterReplay": true,
+  "draft": {
+    "citations": [
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [],
+      [
+        5
+      ]
+    ],
+    "dimensions": [
+      "Exact production launch date and time",
+      "Closed set of allowed launch regions",
+      "Role with exclusive final production approval",
+      "Named rollback ownership role"
+    ],
+    "id": "BUDGET-1792209899",
+    "owner": "0xCAFA30BF94D4fb01146588a1b7901BD85E7DbD0f",
+    "reviewer": "0x013A0745a3b2DbF87f4AB377266fCcb7e6eEC88A",
+    "round": 1,
+    "score": 7,
+    "source_digest": "e512a5fe35da52554b69917da45b16b7efab6f38352662ae9b6fb0d773f861dd",
+    "source_url": "https://cdn.jsdelivr.net/gh/SAMiiNW/ambiguity-budget@main/fixtures/draft-spec.md",
+    "state": "NEEDS_REVISION",
+    "statuses": [
+      "MULTIPLE",
+      "MULTIPLE",
+      "MISSING",
+      "RESOLVED"
+    ],
+    "threshold": 0,
+    "title": "Dispatch specification ambiguity gauge"
+  },
+  "final": {
+    "citations": [
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ]
+    ],
+    "dimensions": [
+      "Exact production launch date and time",
+      "Closed set of allowed launch regions",
+      "Role with exclusive final production approval",
+      "Named rollback ownership role"
+    ],
+    "id": "BUDGET-1792209899",
+    "owner": "0xCAFA30BF94D4fb01146588a1b7901BD85E7DbD0f",
+    "reviewer": "0x013A0745a3b2DbF87f4AB377266fCcb7e6eEC88A",
+    "round": 2,
+    "score": 0,
+    "source_digest": "72fe960bbcc060593746f6daa8d76471678b8cbfdc81834f174183a7732b7323",
+    "source_url": "https://cdn.jsdelivr.net/gh/SAMiiNW/ambiguity-budget@main/fixtures/revised-spec.md",
+    "state": "CLEAR",
+    "statuses": [
+      "RESOLVED",
+      "RESOLVED",
+      "RESOLVED",
+      "RESOLVED"
+    ],
+    "threshold": 0,
+    "title": "Dispatch specification ambiguity gauge"
+  },
+  "fixtureDisclosure": "Both specification files and both demonstration wallets are operator-controlled fixtures used to prove monotonic ambiguity reduction; they are not independent third-party attestations."
+}

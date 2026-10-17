@@ -1,0 +1,12 @@
+{
+  "network": "StudioNet",
+  "account": "SAMiiNW",
+  "contractAddress": "0x2a5484C52123C125c2FfdC4c1eE7f9671456D010",
+  "deploymentTransaction": "0x4ff955f5052e045daa827e5199cb118bfae888ec6db1a4edd7b7f2c7ad9b3467",
+  "deploymentExplorer": "https://explorer-studio.genlayer.com/transactions/0x4ff955f5052e045daa827e5199cb118bfae888ec6db1a4edd7b7f2c7ad9b3467",
+  "deploymentConsensus": "MAJORITY_AGREE",
+  "deploymentExecution": "SUCCESS",
+  "sourceSha256": "71ee4bbc7b13e7825d5427cc23e0a23f17443aac6280dd437242277afd6cb5dd",
+  "sourceCommit": "cc8cf1077af1f47a84453763a617347a3ac3ddd0",
+  "repository": "https://github.com/SAMiiNW/ambiguity-budget"
+}

@@ -17,6 +17,13 @@ Contract code assigns weights 0, 2, and 3. A designated reviewer may submit a ne
 
 The controlled draft fixture leaves launch timing and the closed launch-region set with multiple answers, while final approval is missing. The revision fixes a UTC launch time, a closed region set, an exclusive approval role, and rollback ownership. Live evidence records both finalizations and a rejected post-clear replay. The fixtures are operator-controlled review material, not third-party attestations.
 
+## StudioNet record
+
+- Contract: `0x2a5484C52123C125c2FfdC4c1eE7f9671456D010`
+- Deployment: `0x4ff955f5052e045daa827e5199cb118bfae888ec6db1a4edd7b7f2c7ad9b3467`
+- Demonstrated review: `BUDGET-1792209899`
+- Full transaction links and both stored rounds: `evidence/live-run.json`
+
 ## Check locally
 
 ```powershell
